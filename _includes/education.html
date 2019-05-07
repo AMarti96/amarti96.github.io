@@ -1,0 +1,50 @@
+<div id="particles-js">
+<div class="container">
+
+  <div class="timeline-block timeline-block-right">
+    <div class="marker"></div>
+    <div class="timeline-content">
+      <h3>Master's degree in Applied Telecommunications and Engineering Management - UPC</h3>
+      <span>2018-2019</span>
+      <p>During this master, I was able to increase my knowledge in certain aspects of the telecommunications field along with specific subjects in BigData and entrepreneurship.<span id="more2">&lrm;<br \><br \>It is worth mentioning several subjects where I learned the most recent and groundbreaking aspects of the area. An example of this can be seen in the 5G case, where I studied all the critical aspects of this new technology in order to create a 5G deployment in an urban area. The same can be said about IoT, BigData and Image Processing.&lrm;<br \><br \>Finally, regarding my final thesis project, I focused on the virtualization world, trying to put together the virtualization and automation used in the programming world with a use case of the telecommunications field. As a result, I was able to deploy some VNF in an environment where the services were deployed using Kubernetes and Docker.</span></p>
+      <button onclick="myFunction2()" class="button type1" id="myBtn2">Read more</button>
+    </div>
+  </div>
+
+  <div class="timeline-block timeline-block-left">
+    <div class="marker"></div>
+    <div class="timeline-content">
+      <h3>Bachelor's Degree in Network Engineering - UPC</h3>
+      <span>2014-2018</span>
+      <p dir="rtl">This degree provided me with a wide range of insights in network systems and protocols, and telecommunications regulations in order to be able to design and manage any kind of network, from big data centers to IoT.&lrm;<span id="more">&lrm;<br \><br \>This also entails managing the equipment itself, not only the network. Of course, this also implies knowledge in other areas such as virtualization, augmented reality, network topologies and graphs, video streaming service, VoIP and much more.&lrm;<br \><br \>All of this comes alongise with experience in several programming languages learned during the degree and mastered on my own, such as C#, C, Java, Javascript, Python, HTML and CSS. The major projects were done using Angular, Angular2 and nodejs, also with their own hybrid mobile application using Ionic and Ionic2, all of this using the Agile methodology and deploying them with Docker in AWS.&lrm;<br \><br \>Last but not least, I was instructed in entrepreneurship in order to learn different methods of time and resources management and how the economic basis of any company works. It is also worth mentioning some subjects related to Quantum Information and elaboration of reports for European Projects done during the last year of the degree.&lrm;</span></p>
+      <button onclick="myFunction()" class="button type1" id="myBtn">Read more</button>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  function myFunction() {
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (btnText.innerHTML === "Read less") {
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+  function myFunction2() {
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("myBtn2");
+
+    if (btnText.innerHTML === "Read less") {
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+</script>
