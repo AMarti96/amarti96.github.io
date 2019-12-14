@@ -84,6 +84,13 @@
     padding-top: 10%;
   }
 
+.front-logo-volta {
+    width: 90%;
+    display: block;
+    margin: 2em auto;
+    padding-top: 15%;
+}
+
   .back {
     transform: rotate3d(45,45,0,180deg);
     background-color: #fff;
@@ -99,16 +106,7 @@
   }
 
   .alter {
-    margin-top: 25%;
-    font-family: cabin,sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
-    text-align: center;
-    color: #000;
-  }
-
-  .volta {
-    margin-top: 25%;
+    margin-top: 30%;
     font-family: cabin,sans-serif;
     font-weight: 500;
     font-size: 1.5em;
